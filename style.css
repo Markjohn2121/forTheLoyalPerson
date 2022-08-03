@@ -1,0 +1,130 @@
+body {
+  background-color: aqua;
+  margin: 0;
+  padding: 0;
+}
+
+.wrapper {
+  background-color: blue;
+  background: linear-gradient(67deg, red, blue, violet);
+  width: 100%;
+  height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .content {
+  background-color: rgba(255, 255, 255, 0.607);
+  width: 100%;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.wrapper .content #main1 {
+  width: 95%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.wrapper .content #main1 #range1 {
+  position: relative;
+  width: 90%;
+  height: 2em;
+  border: 2px black solid;
+}
+
+.wrapper .content #main1 #range1 #range1-value {
+  position: relative;
+  height: inherit;
+  background-color: yellowgreen;
+}
+
+.wrapper .content #main1 #data {
+  display: inline;
+  margin: 0;
+  color: blue;
+  float: left;
+}
+
+.wrapper .content #main1 #values {
+  margin: 0;
+  display: inline;
+  font-weight: 800;
+}
+
+.wrapper .content #main1 #desc {
+  font-size: large;
+  font-weight: bold;
+}
+
+.wrapper .content #main {
+  width: 100%;
+  height: auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  display: none;
+}
+
+.wrapper .content #main h2 {
+  margin: 0;
+}
+
+.wrapper .content #main #outof {
+  color: blue;
+}
+
+.wrapper .content #main #tbody {
+  background-color: rgba(255, 255, 255, 0.626);
+  height: 3em;
+}
+
+.wrapper .content #main #tbody a {
+  text-decoration: none;
+  color: blue;
+}
+
+.wrapper .content #main #tbody a:visited {
+  color: blue;
+}
+
+.wrapper .content #main #tbody tr {
+  -ms-grid-row: 3;
+  grid-row: 3em;
+}
+/*# sourceMappingURL=style.css.map */
